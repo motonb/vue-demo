@@ -1,0 +1,16 @@
+stages:
+  - install
+  - update
+
+cache:
+  paths:
+    - node_modules/
+    - dist/
+    
+install:
+  stage: install
+  script:
+    - npm install
+    - npm run build
+  only: 
+    - master

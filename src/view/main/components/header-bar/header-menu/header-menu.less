@@ -1,0 +1,50 @@
+.ivu-menu{
+  display: inline-block;
+  width: calc(~"100% - 400px");
+  background: #008deb;
+  vertical-align: top;
+  border-bottom: none;
+  height: 62px;
+  line-height: 62px;
+}
+.ivu-menu:hover{
+  border: none;
+}
+.layout-nav{
+  width: 100%;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.ivu-menu-horizontal.ivu-menu-light:after{
+  background: #008deb;
+}
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item{
+  color: rgba(255, 255, 255, 0.7);
+  border-bottom: none;
+  text-align: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0;
+}
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item:hover{
+  border-bottom: none;
+  color: #fff;
+}
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active{
+  background: #34a4ef;
+  color: #fff;
+
+}
